@@ -1,0 +1,20 @@
+{
+  "name": "xlservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xl.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node xl.ts",
+    "watch": "sudo nodemon -w . --ext \".ts\" --exec \"npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "xlservice"
+  },
+  "author": "Sergei Ovcharov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
